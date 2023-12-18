@@ -1,2 +1,2 @@
 # htdocs-2024
-Website for the Libre Graphics Meeting 2021
+Website for the Libre Graphics Meeting 2024
