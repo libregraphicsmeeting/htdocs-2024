@@ -64,7 +64,6 @@ li.nav-item.active a {
   color: var(--lightblue);
 }
 
-
 body {
   background-color: var(--darkblue);
 }
@@ -139,7 +138,6 @@ a.nothing.c3 {
   background-color: var(--mediumblue);
   border-color: transparent;
   box-shadow: 1px 1px 1px var(--darkblue);
-  font-weight: 700;;
 }
 
 .dropdown-menu a {
@@ -152,6 +150,16 @@ a.nothing.c3 {
 }
 
 /* ---- Fonts */
+
+@font-face {
+  font-family: Poppins;
+  src: url("fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+}
 
 body,
 .text {
@@ -180,10 +188,8 @@ h4,
 h5,
 h6,
 nav,
-a,
-.dropdown-item {
+a {
   font-family: Poppins;
-  font-weight: 700;
 }
 
 h1 {
@@ -195,7 +201,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 29px;
 }
 
 /* ---- website */
@@ -224,7 +230,7 @@ h3 {
 
 footer {
   background-color: rgb(26, 24, 24);
-  background-image: url("pattern01-seamless-o30.png");
+  background-image: url("img/pattern01-seamless-o30.png");
 }
 
 .footerContent {
